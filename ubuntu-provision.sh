@@ -60,3 +60,6 @@ cd jetbrains-toolbox-*
 cd ..
 rm jb_toolbox.tar.gz
 rm -rf jetbrains-toolbox-*
+
+# Download idea-one-dark-theme settings.jar file (https://github.com/yurtaev/idea-one-dark-theme)
+wget -O ~/Downloads/settings.jar https://github.com/yurtaev/idea-one-dark-theme/raw/master/settings.jar
