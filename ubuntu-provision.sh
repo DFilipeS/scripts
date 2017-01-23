@@ -51,3 +51,12 @@ apt-get install --allow-unauthenticated -y spotify-client
 wget -O slack.deb https://downloads.slack-edge.com/linux_releases/slack-desktop-2.4.2-amd64.deb
 dpkg -i slack.deb
 rm slack.deb
+
+# Install JetBrains Toolbox
+wget -O jb_toolbox.tar.gz https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.1.2143.tar.gz
+tar -xzf jb_toolbox.tar.gz
+cd jetbrains-toolbox-*
+./jetbrains-toolbox
+cd ..
+rm jb_toolbox.tar.gz
+rm -rf jetbrains-toolbox-*
